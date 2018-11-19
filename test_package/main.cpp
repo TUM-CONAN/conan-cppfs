@@ -10,13 +10,5 @@ int main(){
     std::string path(".");
     FileHandle dir = fs::open(path);
 
-    if (dir.isDirectory())
-    {
-        for (FileIterator it = dir.begin(); it != dir.end(); ++it)
-        {
-            std::string path = *it;
-        }
-    }
-
 	return 0;
 }
