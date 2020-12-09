@@ -8,7 +8,7 @@ class rttrConan(ConanFile):
     version = "1.3.0"
     license = "MIT License"
     homepage = "https://www.github.com/cginternals/cppfs"
-    description = """rttr project"""
+    description = """cppfs project"""
     url = "https://github.com/ulricheck/conan-cppfs"
 
     generators = "cmake"
@@ -26,7 +26,6 @@ class rttrConan(ConanFile):
         "type": "git",
         "subfolder": "cppfs",
         "url": "https://github.com/cginternals/cppfs.git",
-        # "revision": "rttrorg-rttr-%s"% version
         "revision": "v%s" % version
      }
 
