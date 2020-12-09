@@ -3,7 +3,7 @@ import shutil
 from conans import ConanFile, tools, CMake
 
 
-class rttrConan(ConanFile):
+class cppfsConan(ConanFile):
     name = "cppfs"
     version = "1.3.0"
     license = "MIT License"
